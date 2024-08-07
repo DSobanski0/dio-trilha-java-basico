@@ -17,6 +17,6 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o saldo da conta:");
         Double saldo = scan.nextDouble();
 
-        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo %s já está disponível para saque", nome, agencia, conta, String.format("%.2f", saldo));
+        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo %.2f já está disponível para saque", nome, agencia, conta, saldo);
     }
 }
